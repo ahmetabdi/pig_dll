@@ -24,12 +24,6 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ReflectiveDLLInjection.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ReflectiveLoader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="PigDll.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -48,9 +42,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="dllmain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ReflectiveLoader.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Speed.cpp">

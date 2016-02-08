@@ -1,0 +1,29 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  PigDll.cpp
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(3): error C2485: 'naked': unrecognized extended attribute
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(5): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(5): error C2065: 'mov': undeclared identifier
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(5): error C2146: syntax error: missing ';' before identifier 'dword'
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(5): error C2065: 'dword': undeclared identifier
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(5): error C2146: syntax error: missing ';' before identifier 'ptr'
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(5): error C2065: 'ptr': undeclared identifier
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(5): error C2065: 'esi': undeclared identifier
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(6): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(6): error C2146: syntax error: missing ';' before identifier 'jmp'
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(6): error C2065: 'jmp': undeclared identifier
+c:\users\strixx\documents\visual studio 2015\projects\pigdll\pigdll\Hooks.h(7): error C2143: syntax error: missing ';' before '}'
+PigDll.cpp(15): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [22]' to 'LPCWSTR'
+  PigDll.cpp(15): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+PigDll.cpp(115): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+PigDll.cpp(116): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+PigDll.cpp(117): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+PigDll.cpp(123): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'char *' to 'LPCWSTR'
+  PigDll.cpp(123): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+PigDll.cpp(139): warning C4312: 'type cast': conversion from 'unsigned long' to 'BYTE *' of greater size
+PigDll.cpp(151): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+PigDll.cpp(151): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+  Speed.cpp
+Speed.cpp(1): warning C4627: '#include "Speed.h"': skipped when looking for precompiled header use
+  Speed.cpp(1): note: Add directive to 'stdafx.h' or rebuild precompiled header
+Speed.cpp(110): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?

@@ -49,6 +49,7 @@ DWORD WINAPI RunLoop(HMODULE hModule) {
 	{
 		if (GetAsyncKeyState(VK_INSERT) & 1 && GetTickCount() - InsertKeyPressTime > 1000)
 		{
+			Beep(750, 100);
 			InsertKeyPressTime = GetTickCount();
 			InsertToggle = !InsertToggle;
 			if (InsertToggle) {
@@ -62,6 +63,7 @@ DWORD WINAPI RunLoop(HMODULE hModule) {
 
 		if (GetAsyncKeyState(VK_DELETE) & 1 && GetTickCount() - DeleteKeyPressTime > 1000) 
 		{
+			Beep(750, 100);
 			DeleteKeyPressTime = GetTickCount();
 			DeleteToggle = !DeleteToggle;
 
@@ -96,8 +98,6 @@ DWORD WINAPI RunLoop(HMODULE hModule) {
 			Beep(750, 100);
 			break;
 		}
-		Sleep(100);
-
 		/*
 		if (InsertToggle)
 		{
@@ -108,7 +108,6 @@ DWORD WINAPI RunLoop(HMODULE hModule) {
 	FreeLibraryAndExitThread(hModule, NULL);
 	return 0;
 }
-
 
 void writeMem(DWORD dwAddress, void* bytes, DWORD dwSize) {
 	DWORD flOldProtect = 0;
